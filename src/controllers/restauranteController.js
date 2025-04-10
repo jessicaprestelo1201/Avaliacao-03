@@ -81,13 +81,13 @@ class RestauranteController {
       const sucesso = await restauranteModel.delete(Number(id));
 
       if (!sucesso) {
-        return res.status(404).json({ erro: "Tarefa não encontrada" });
+        return res.status(404).json({ erro: "Restaurante não encontrada" });
       }
 
-      res.status(200).send({ message: "Tarefa deletada com sucesso!" });
+      res.status(200).send({ message: "Restaurante deletado com sucesso!" });
     } catch (error) {
       console.error(error);
-      res.status(500).json({ error: "Erro ao excluir tarefa!" });
+      res.status(500).json({ error: "Erro ao excluir Restaurante!" });
     }
   };
 }
