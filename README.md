@@ -39,7 +39,7 @@ model Restaurante {
 ```
 
 
-### 8. Atualizando as rotas
+## 4. Atualizando as rotas
 
 implementei a nova rota `getById` no arquivo de rotas:
 
