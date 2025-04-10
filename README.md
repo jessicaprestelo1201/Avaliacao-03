@@ -36,7 +36,7 @@ model Restaurante {
 
   @@map("restaurantes")
 }
-```
+
 
 
 ## 4. Atualizando as rotas
@@ -155,7 +155,7 @@ Resposta:
 }
 
 ## Delete - http://localhost:4000/restaurantes/1
-- Body:
+ Body:
   {
   
 "name":"teste",
